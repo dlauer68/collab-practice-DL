@@ -13,3 +13,8 @@ text-shadow: 2px 2px 8px white;
 h5.card-title {
     text-decoration: underline 2px black;
 }
+
+.filler {
+    height: 8.85vh;
+    width: 100%;
+}

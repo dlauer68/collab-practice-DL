@@ -11,26 +11,26 @@
 
     <title>Collab-Practice-DL</title>
   </head>
-  <body>
+  <body class="bg-dark">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-5">
-      <div class="container-fluid d-sm-flex">
-        <a href="#" class="navbar-brand fs-1 col-6 text-center"><span class="text-info">Logo</span></a>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid py-3">
+        <a href="#" class="navbar-brand fs-1 col-2 text-center"><span class="text-info">Logo</span></a>
 
         <button class="navbar-toggler mx-4" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
     
-        <div class="collapse navbar-collapse col-6 justify-content-center" id="navmenu">
+        <div class="collapse navbar-collapse col-2 justify-content-end" id="navmenu">
           <ul class="navbar-nav fs-3">
             <li class="nav-item">
-              <a href="#" class="nav-link">Home</a>
+              <a href="#" class="nav-link text-white">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Gallery</a>
+              <a href="#" class="nav-link text-white">Gallery</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Contact</a>
+              <a href="#" class="nav-link text-white">Contact</a>
             </li>
           </ul>
         </div>
@@ -39,72 +39,32 @@
 
     <!-- Showcase -->
 
-    <section class="bg-dark">
-      <div class="container text-center">
-        <div class="row bg-info p-4">
-          <div class="col">
-            <div class="p-3  bg-light">
-              <img class="w-75" src="/IMG/comicbooksoundeffects.svg" alt="">
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-3 border bg-light">
-              <img class="img-fluid" src="/IMG/undraw_super_woman_dv-0-y.svg" alt="">
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-3 bg-light">
-              <img src="/IMG/comicbooksoundeffects.svg" alt="">
+    <section class="bg-dark container">
+      <div class="row py-5">
+        <div class="col d-sm-flex justify-content-center mx-5 my-1">
+          <div class="card bg-info" style="width: 18rem;">
+            <img src="IMG/comicbooksoundeffects.svg"  class="card-img-top w-50 mx-auto" alt="comic noises">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Comic Book Effect Sounds!</h5>
+              <p class="card-text text-white">A variety of different sound effects can be seen thoughout comic books!</p>
             </div>
           </div>
         </div>
-        <div class="row bg-warning p-4">
-          <div class="col">
-            <div class="p-3  bg-light">
-              <img class="img-fluid" src="/IMG/undraw_be_the_hero_ssr2.svg" alt="">
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-3  bg-light">
-              <img class="w-25" src="/IMG/comicbooksoundeffects.svg" alt="">
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-3  bg-light">
-              <img class="img-fluid" src="/IMG/DL-showcase2.svg" alt="">
+        <div class="col d-sm-flex justify-content-center mx-5 my-1">
+          <div class="card bg-secondary" style="width: 18rem;">
+            <img src="IMG/undraw_super_woman_dv-0-y.svg" class="card-img-top h-75 mx-auto" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Heroes and Villains</h5>
+              <p class="card-text text-white">Pick your side and choose your favorite villain or hero.  Will you save the day or destroy it!</p>
             </div>
           </div>
         </div>
-        <div class="row bg-danger p-4">
-          <div class="col">
-            <div class="p-3  bg-light">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet culpa quasi nihil, voluptatibus dignissimos deleniti aperiam eum consectetur deserunt eveniet similique harum numquam molestias fuga reiciendis eius sint. Aspernatur, voluptate.
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-3  bg-light">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum hic voluptates qui, placeat fuga nulla, nam molestias vitae corrupti dolor recusandae assumenda nemo sunt, animi iusto repellendus. Atque, in natus.
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-3  bg-light">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum suscipit atque fugit repellat? Sapiente ducimus libero ab, impedit totam dolorem quibusdam amet pariatur culpa laboriosam consequatur ratione quod? Cupiditate, molestias.
-            </div>
-          </div>
-        </div><div class="row bg-success p-4">
-          <div class="col">
-            <div class="p-3  bg-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus pariatur temporibus qui ea molestias quam dolor? Necessitatibus deleniti odit tempora magni tempore iure culpa quisquam, cumque repellat? Hic, non fuga!
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-3  bg-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus pariatur temporibus qui ea molestias quam dolor? Necessitatibus deleniti odit tempora magni tempore iure culpa quisquam, cumque repellat? Hic, non fuga!
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-3  bg-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus pariatur temporibus qui ea molestias quam dolor? Necessitatibus deleniti odit tempora magni tempore iure culpa quisquam, cumque repellat? Hic, non fuga!
+        <div class="col d-sm-flex justify-content-center mx-5 my-1">
+          <div class="card bg-danger" style="width: 18rem;">
+            <img src="IMG/DL-showcase2.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-warning">Original Art</h5>
+              <p class="card-text text-white">All comics are conceptualized and created by me.</p>
             </div>
           </div>
         </div>
@@ -113,9 +73,9 @@
 
     <!-- Footer -->
 
-    <footer class="bg-dark">
+    <footer class="bg-danger">
       <div class="container">
-        <div class="row d-sm-flex  justify-content-between">
+        <div class="row justify-content-between">
           <div class="col">
             <ul class="navbar-nav fs-3 list-style">
               <li class="nav-item">
@@ -129,7 +89,7 @@
               </li>
             </ul>
           </div>
-          <div class="col d-sm-flex align-items-center">
+          <div class="col d-sm-flex align-items-center my-auto">
             <p class="text-white">&copy Dan Lauer</p>
           </div>
         </div>

@@ -18,3 +18,7 @@ h5.card-title {
     height: 8.85vh;
     width: 100%;
 }
+
+.social a {
+    color: white;
+}

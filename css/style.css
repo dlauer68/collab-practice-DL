@@ -1,0 +1,24 @@
+.navbar-nav a:hover {
+display: block;
+transform: translateX(-5px);
+text-shadow: 2px 2px 8px white;
+}
+
+.card {
+    border: 1px solid #000;
+    border-radius: 4%;
+    box-shadow: 1px 1px 50px #000 inset;
+}
+
+h5.card-title {
+    text-decoration: underline 2px black;
+}
+
+.filler {
+    height: 8.85vh;
+    width: 100%;
+}
+
+.social a {
+    color: white;
+}

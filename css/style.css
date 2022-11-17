@@ -2,10 +2,9 @@
     background-image: url(../IMG/pexels-felix-mittermeier-956981.jpg);
     background-size: cover;
     background-position: center;
-    height: 75vh;
+    height: 100vh;
 }
 
 .jumbotron h1 {
     font-size: 7rem;
-
 }

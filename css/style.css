@@ -19,15 +19,11 @@ h5.card-title {
     width: 100%;
 }
 
-.social a {
-    color: white;
-}
-
 .jumbotron {
     background-image: url(../IMG/pexels-felix-mittermeier-956981.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 500px;
 }
 
 .jumbotron h1 {
